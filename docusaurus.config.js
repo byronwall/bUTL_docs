@@ -24,12 +24,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/byronwall/bUTL_docs/tree/master/docs/",
+          editUrl: "https://github.com/byronwall/bUTL_docs/tree/master/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: "https://github.com/byronwall/bUTL_docs/tree/master/blog/",
+          editUrl: "https://github.com/byronwall/bUTL_docs/tree/master/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -41,6 +41,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: "light",
+        disableSwitch: true,
+      },
       navbar: {
         title: "bUTL",
         logo: {
@@ -69,7 +73,7 @@ const config = {
       },
       prism: {
         theme: lightCodeTheme,
-        //darkTheme: darkCodeTheme,
+        darkTheme: darkCodeTheme,
       },
     }),
 };
