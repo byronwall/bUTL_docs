@@ -18,7 +18,7 @@ The output will be a column for each unique value. It will then only show the va
 
 This series split can then be used to create a nice chart with each column in its own series. This gives a unique color to each category. The image below shows the new table of data that was added. The charts were created separately to show the purpose of this.
 
-![series-split](/img/adv-processing/series split.png)
+![series-split](/img/adv-processing/series-split.png)
 
 ## Extend array formula
 
