@@ -8,8 +8,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "bUTL",
   tagline: "A set of utilities for Excel VBA",
-  url: "https://github.com/byronwall/bUTL",
-  baseUrl: "/",
+  url: "https://byronwall.github.io",
+  baseUrl: "/bUTL/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
@@ -24,14 +24,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/byronwall/bUTL_docs/tree/master/docs/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/byronwall/bUTL_docs/tree/master/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -47,7 +45,7 @@ const config = {
         title: "bUTL",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo.svg",
+          src: "img/favicon.ico",
         },
         items: [
           {
